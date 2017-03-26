@@ -1,0 +1,27 @@
+application:
+  title: Mobile Backend
+  description: A Restful backend for mobile clients
+  tos: Terms of service
+  name: Upul Doluweera
+  url: www.google.com
+  contact:
+    email: upuldi@gmail.com
+  license: GNU-GPL
+  apiLicenseUrl: gnu.org
+
+  api:
+    public:
+      version: 1.0
+
+spring:
+  cache:
+    ehcache:
+      config: classpath:ehcache.xml
+
+remote:
+  service:
+    endpoint: "https://www.qantas.com.au/api/airports"
+
+logging:
+  level:
+    ROOT: INFO

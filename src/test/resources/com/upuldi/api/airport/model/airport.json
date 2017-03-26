@@ -1,0 +1,16 @@
+{
+  "code": "BZD",
+  "display_name": "Balranald",
+  "international_airport": true,
+  "regional_airport": false,
+  "location": {
+    "latitude": -34.616665,
+    "longitude": 143.61667
+  },
+  "currency_code": "AUD",
+  "timezone": "Australia/Sydney",
+  "country": {
+    "code": "AU",
+    "display_name": "Australia"
+  }
+}

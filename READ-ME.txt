@@ -1,0 +1,36 @@
+How to run the application
+===========================
+
+mvn clean install spring-boot:run
+
+Swagger Doc
+============
+Pls visti following URL for API Docs
+
+http://localhost:8080/swagger-ui.html
+
+
+prerequisite
+=============
+java8
+maven (local artifactory, proxy)
+
+
+Features
+========
+
+TDD - 83% line coverage, 85% method coverage
+EHCahe is used to cache backend requests to remote server.
+HATEOAS Responses.
+
+
+URL Endpoints
+==============
+(GET /public/api/v1.0/airports/countries/{code})
+http://localhost:8080/public/api/v1.0/airports/countries/AU
+
+(GET /public/api/v1.0/airports/{code})
+http://localhost:8080/public/api/v1.0/airports/CAN
+
+http://localhost:8080/public/api/v1.0/airports/domestic
+http://localhost:8080/public/api/v1.0/airports/international
